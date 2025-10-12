@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4109649196151455926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9202531768368478510}
+  - component: {fileID: 2696209005607041445}
+  - component: {fileID: 8853337656737936365}
+  m_Layer: 0
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9202531768368478510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4109649196151455926}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.21674159, y: 4.14, z: -0.049332928}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2696209005607041445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4109649196151455926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f58dcb7d9e5e92342a3a7d7c26611f59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tetrominos:
+  - {fileID: 8216700869744363307, guid: fc4ec48b59b57774988ddaa750c90abf, type: 3}
+  - {fileID: 4738685161360516295, guid: 1e0b2c870e360e34e9911e8827991d41, type: 3}
+  - {fileID: 9110143814811791034, guid: 4fb6966acf7cda349bf91221c2cc4e01, type: 3}
+  - {fileID: 7099236981437245449, guid: 66536d4514fedc44397f51453bebc398, type: 3}
+  - {fileID: 4792488427166626207, guid: ef0deff3ab0906843be4dc365635c1b1, type: 3}
+  spawnPoint: {fileID: 9202531768368478510}
+  currentTetronimo: {fileID: 0}
+--- !u!114 &8853337656737936365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4109649196151455926}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1919e7d7703c514dbc5d1d86c45032b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tetrominos:
+  - {fileID: 8216700869744363307, guid: fc4ec48b59b57774988ddaa750c90abf, type: 3}
+  - {fileID: 4738685161360516295, guid: 1e0b2c870e360e34e9911e8827991d41, type: 3}
+  - {fileID: 9110143814811791034, guid: 4fb6966acf7cda349bf91221c2cc4e01, type: 3}
+  - {fileID: 7099236981437245449, guid: 66536d4514fedc44397f51453bebc398, type: 3}
+  - {fileID: 4792488427166626207, guid: ef0deff3ab0906843be4dc365635c1b1, type: 3}
+  spawnPoint: {fileID: 9202531768368478510}
+  currentTetronimo: {fileID: 0}
